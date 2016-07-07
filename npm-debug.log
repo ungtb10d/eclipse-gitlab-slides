@@ -1,0 +1,80 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/Users/kali/.nvm/versions/node/v5.0.0/bin/node',
+1 verbose cli   '/Users/kali/.nvm/versions/node/v5.0.0/bin/npm',
+1 verbose cli   'rebuild',
+1 verbose cli   'node-sass' ]
+2 info using npm@3.3.6
+3 info using node@v5.0.0
+4 info readInstalled object
+5 verbose rebuild path, id [ '/Users/kali/Desktop/training/eh-session/node_modules/node-sass',
+5 verbose rebuild   'node-sass@3.3.3' ]
+6 verbose rebuild path, id [ '/Users/kali/Desktop/training/eh-session/node_modules/grunt-sass/node_modules/node-sass',
+6 verbose rebuild   'node-sass@3.4.2' ]
+7 silly rebuild set [ '/Users/kali/Desktop/training/eh-session/node_modules/node-sass',
+7 silly rebuild set   '/Users/kali/Desktop/training/eh-session/node_modules/grunt-sass/node_modules/node-sass' ]
+8 info build /Users/kali/Desktop/training/eh-session/node_modules/node-sass
+9 info lifecycle node-sass@3.3.3~preinstall: node-sass@3.3.3
+10 silly lifecycle node-sass@3.3.3~preinstall: no script for preinstall, continuing
+11 info linkStuff node-sass@3.3.3
+12 silly linkStuff node-sass@3.3.3 has /Users/kali/Desktop/training/eh-session/node_modules as its parent node_modules
+13 verbose linkBins node-sass@3.3.3
+14 verbose link bins [ { 'node-sass': 'bin/node-sass' },
+14 verbose link bins   '/Users/kali/Desktop/training/eh-session/node_modules/.bin',
+14 verbose link bins   false ]
+15 verbose linkMans node-sass@3.3.3
+16 verbose rebuildBundles node-sass@3.3.3
+17 verbose rebuildBundles [ '.bin',
+17 verbose rebuildBundles   'async-foreach',
+17 verbose rebuildBundles   'chalk',
+17 verbose rebuildBundles   'cross-spawn',
+17 verbose rebuildBundles   'gaze',
+17 verbose rebuildBundles   'get-stdin',
+17 verbose rebuildBundles   'glob',
+17 verbose rebuildBundles   'meow',
+17 verbose rebuildBundles   'mkdirp',
+17 verbose rebuildBundles   'nan',
+17 verbose rebuildBundles   'node-gyp',
+17 verbose rebuildBundles   'npmconf',
+17 verbose rebuildBundles   'request',
+17 verbose rebuildBundles   'sass-graph' ]
+18 info lifecycle node-sass@3.3.3~install: node-sass@3.3.3
+19 verbose lifecycle node-sass@3.3.3~install: unsafe-perm in lifecycle true
+20 verbose lifecycle node-sass@3.3.3~install: PATH: /Users/kali/.nvm/versions/node/v5.0.0/lib/node_modules/npm/bin/node-gyp-bin:/Users/kali/Desktop/training/eh-session/node_modules/node-sass/node_modules/.bin:/Users/kali/Desktop/training/eh-session/node_modules/.bin:/Users/kali/.rvm/gems/ruby-2.2.4/bin:/Users/kali/.rvm/gems/ruby-2.2.4@global/bin:/Users/kali/.rvm/rubies/ruby-2.2.4/bin:/Users/kali/.nvm/versions/node/v5.0.0/bin://anaconda/bin:/usr/local/sbin:/usr/local/bin:/Library/Java/JavaVirtualMachines/jdk1.8.0_91.jdk/Contents/Home/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/usr/local/go/bin:/usr/local/MacGPG2/bin:/Applications/Postgres.app/Contents/Versions/9.3/bin:/Users/kali/.rvm/bin
+21 verbose lifecycle node-sass@3.3.3~install: CWD: /Users/kali/Desktop/training/eh-session/node_modules/node-sass
+22 silly lifecycle node-sass@3.3.3~install: Args: [ '-c', 'node scripts/install.js' ]
+23 silly lifecycle node-sass@3.3.3~install: Returned: code: 0  signal: null
+24 info lifecycle node-sass@3.3.3~postinstall: node-sass@3.3.3
+25 verbose lifecycle node-sass@3.3.3~postinstall: unsafe-perm in lifecycle true
+26 verbose lifecycle node-sass@3.3.3~postinstall: PATH: /Users/kali/.nvm/versions/node/v5.0.0/lib/node_modules/npm/bin/node-gyp-bin:/Users/kali/Desktop/training/eh-session/node_modules/node-sass/node_modules/.bin:/Users/kali/Desktop/training/eh-session/node_modules/.bin:/Users/kali/.rvm/gems/ruby-2.2.4/bin:/Users/kali/.rvm/gems/ruby-2.2.4@global/bin:/Users/kali/.rvm/rubies/ruby-2.2.4/bin:/Users/kali/.nvm/versions/node/v5.0.0/bin://anaconda/bin:/usr/local/sbin:/usr/local/bin:/Library/Java/JavaVirtualMachines/jdk1.8.0_91.jdk/Contents/Home/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/usr/local/go/bin:/usr/local/MacGPG2/bin:/Applications/Postgres.app/Contents/Versions/9.3/bin:/Users/kali/.rvm/bin
+27 verbose lifecycle node-sass@3.3.3~postinstall: CWD: /Users/kali/Desktop/training/eh-session/node_modules/node-sass
+28 silly lifecycle node-sass@3.3.3~postinstall: Args: [ '-c', 'node scripts/build.js' ]
+29 silly lifecycle node-sass@3.3.3~postinstall: Returned: code: 1  signal: null
+30 info lifecycle node-sass@3.3.3~postinstall: Failed to exec postinstall script
+31 verbose stack Error: node-sass@3.3.3 postinstall: `node scripts/build.js`
+31 verbose stack Exit status 1
+31 verbose stack     at EventEmitter.<anonymous> (/Users/kali/.nvm/versions/node/v5.0.0/lib/node_modules/npm/lib/utils/lifecycle.js:233:16)
+31 verbose stack     at emitTwo (events.js:87:13)
+31 verbose stack     at EventEmitter.emit (events.js:172:7)
+31 verbose stack     at ChildProcess.<anonymous> (/Users/kali/.nvm/versions/node/v5.0.0/lib/node_modules/npm/lib/utils/spawn.js:24:14)
+31 verbose stack     at emitTwo (events.js:87:13)
+31 verbose stack     at ChildProcess.emit (events.js:172:7)
+31 verbose stack     at maybeClose (internal/child_process.js:818:16)
+31 verbose stack     at Process.ChildProcess._handle.onexit (internal/child_process.js:211:5)
+32 verbose pkgid node-sass@3.3.3
+33 verbose cwd /Users/kali/Desktop/training/eh-session
+34 error Darwin 15.5.0
+35 error argv "/Users/kali/.nvm/versions/node/v5.0.0/bin/node" "/Users/kali/.nvm/versions/node/v5.0.0/bin/npm" "rebuild" "node-sass"
+36 error node v5.0.0
+37 error npm  v3.3.6
+38 error code ELIFECYCLE
+39 error node-sass@3.3.3 postinstall: `node scripts/build.js`
+39 error Exit status 1
+40 error Failed at the node-sass@3.3.3 postinstall script 'node scripts/build.js'.
+40 error This is most likely a problem with the node-sass package,
+40 error not with npm itself.
+40 error Tell the author that this fails on your system:
+40 error     node scripts/build.js
+40 error You can get their info via:
+40 error     npm owner ls node-sass
+40 error There is likely additional logging output above.
+41 verbose exit [ 1, true ]
