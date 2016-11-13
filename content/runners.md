@@ -1,4 +1,4 @@
-## Workspace 
+## Runners
 
 - Choose a directory on you machine easy to access
 - Create a workspace or development directory
