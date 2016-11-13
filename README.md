@@ -1,3 +1,5 @@
+[![build status](https://gitlab.com/gitlab-org/ci-training-slides/badges/master/build.svg)](https://gitlab.com/gitlab-org/ci-training-slides/commits/master)
+
 # CI/CD GitLab Training
 
 This project hosts the RevelJS framework and content that renders the CI/CD trainingt slides. Presentation behavior and
@@ -30,7 +32,7 @@ Content is design to be served in one session of about three or three and a half
   
 ### Sample Application
 
-The slides require using a sample CI application which can be found at https://gitlab.com/balameb/ci-training-sample  
+The slides require using a sample CI application which can be found at https://gitlab.com/gitlab-org/ci-training-sample  
 
 ## reveal.js References:
 - [Installation](https://github.com/hakimel/reveal.js/#installation): Step-by-step instructions for getting reveal.js 

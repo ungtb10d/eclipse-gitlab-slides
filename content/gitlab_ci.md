@@ -1,17 +1,28 @@
-## GitLab CI/CD 
+## GitLab CI/CD
 
-- Choose a directory on you machine easy to access
-- Create a workspace or development directory
-- This is where we'll be working and adding content
+- Test result visibility and validation
+
+- Application Lifecycle
+
+- Continuous Delivery: multiple stages, manual deploys, environments, and
+variables
+
+- Open source
+
+Note:
+- How does the CI/CD functionality that GitLab offers help the team?
+- May be useful to get some ideas about what they are building
 
 ----------
 
-```
-mkdir ~/development
-cd ~/development
+- CI is fully integrated with GitLab
 
--or-
+- Scalable: Tests run distributed on separate machines of which you can add as
+many as you need
 
-mkdir ~/workspace
-cd ~/workspace  
-```
+- Jobs run in parallel on multiple machines
+
+![CI Architecture](https://about.gitlab.com/images/ci/arch-1.jpg)
+
+Note:
+- Mention examples such as building binaries, app packing and delivery, deployment, etc
