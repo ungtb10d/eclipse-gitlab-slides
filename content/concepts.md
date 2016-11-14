@@ -1,11 +1,11 @@
 ## Concepts
 
-- *Continouos Integration*: software development practice where code is
+- *Continuous Integration*: software development practice where code is
 integrated regularly.
 
 - Integration usually includes building and testing  
 
-- *Continouos Deployment*: closely related to CI but also implies releasing
+- *Continuous Deployment*: closely related to CI but also implies releasing
 integrated code into production
 
 - References:
