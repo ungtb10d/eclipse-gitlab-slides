@@ -1,17 +1,14 @@
 ## Runners
 
-- Choose a directory on you machine easy to access
-- Create a workspace or development directory
-- This is where we'll be working and adding content
+- A runner is an isolated (virtual) machine that picks up builds through the
+coordinator API of GitLab CI.
 
-----------
+- You can create as many Runners as you need on different machines
 
-```
-mkdir ~/development
-cd ~/development
+- The Runners screen
 
--or-
+- Specific vs Shared Runners
 
-mkdir ~/workspace
-cd ~/workspace  
-```
+- Installation vs registration
+
+- Tagged Runners

@@ -1,44 +1,28 @@
 ## Sample App
 
+----------
+
+### Main Objectives
+- Build a web application on Ruby on Rails
+- Create an integration workflow
+- Automate deployments  
+
+---
+
+### Complementary
+- Project landing page
+- Docker environment for build and development
+
+Note:
+- Add some interesting context such as "we're getting hired to do ABC"
 
 ----------
 
-## Docker
+### App and CI Tour
 
-Download and modify a Docker image:
-
-```
-docker images
-docker run -t -i ruby:2.3 /bin/bash
-
-$ apt-get update
-$ apt-get install nodejs -y
-$ gem install bundler --no-ri --no-rdoc
-# A Dockerfile is a great option for the following line or
-# maybe integrate with our current CI script?
-$ bundle install
-$ exit
-
-# Log back in?
-docker ps -a # and get container sha
-docker start -i <container-sha>
-```
-
-----------
-## Create a custom image
-
-docker tag <image id> <url>:<port>/<user/project>:<tag>
-
-```
-# Commit a new image
-docker commit -m "Adds dependencies" -a "Peter Parker" \
-<container-sha> registry.gitlab.com/<group-name>/projectname:v2
-
-# Login in to GitLab registry
-# docker login registry.gitlab.com
-docker login <url>:<port>
-
-# Push image to registry
-# docker push registry.gitlab.com/gitlab-org/ci-training-sample
-docker push <registry-url>/<group-name>/<project-name>:<tag>
-```
+- Review files and repository
+- View CI badge
+- Talk about the pipeline and builds
+- Talk about environments
+- Cycle Analytics
+- Activating builds
