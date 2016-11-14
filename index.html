@@ -64,7 +64,7 @@
 				</section>
 
 				<!-- Agenda -->
-				<section>
+				<section id="agenda">
 					<!-- nested agenda sections -->
 					<section data-markdown>
 						## Agenda
@@ -84,6 +84,16 @@
 						- CI Setup
 						- Runners
 						- Questions
+					</section>
+
+					<section data-markdown>
+						Complementary:
+						- [Docker](#/docker)
+
+						Note:
+						- The docker item is a link to the slides
+						- The docker slides have a back link to the agenda
+						- Complementary material, not required but useful
 					</section>
 				</section>
 
@@ -111,8 +121,16 @@
 				 data-charset="iso-8859-15">
 				</section>
 
-				<!-- Why use CI -->
-				<section data-markdown="content/what_git.md"
+				<!-- GitLab ci yml file -->
+				<section data-markdown="content/gitlab-ci-yml.md"
+				 data-separator="^\n\n\n"
+				 data-separator-vertical="^----------"
+				 data-separator-notes="^Note:"
+				 data-charset="iso-8859-15">
+				</section>
+
+				<!-- Runners-->
+				<section data-markdown="content/runners.md"
 				 data-separator="^\n\n\n"
 				 data-separator-vertical="^----------"
 				 data-separator-notes="^Note:"
@@ -128,6 +146,15 @@
 					- A hard stop at 30 mins into this section is a good range of time
 					- Ideally we can also share another channel of sending questions if
 					they have none at the moment
+				</section>
+
+				<!-- Docker -->
+				<section data-markdown="content/docker.md"
+				 data-separator="^\n\n\n"
+				 data-separator-vertical="^----------"
+				 data-separator-notes="^Note:"
+				 data-charset="iso-8859-15"
+				 id="docker">
 				</section>
 
 			</div>
