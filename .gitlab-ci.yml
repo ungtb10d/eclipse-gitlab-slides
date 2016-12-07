@@ -22,7 +22,8 @@ pages:
   stage: pages
   dependencies:
     - build
-  script: []
+  script:
+  - echo "Building pages ..."
   artifacts:
     paths:
       - public/
