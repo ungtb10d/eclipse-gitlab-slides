@@ -1,4 +1,4 @@
-[![build status](https://gitlab.com/balameb/eclipse-gitlab-slides/badges/master/build.svg)](https://gitlab.com/balameb/eclipse-gitlab-slides/commits/master)
+[![build status](https://gitlab.com/gitlab-org/eclipse-gitlab-slides/badges/master/build.svg)](https://gitlab.com/gitlab-org/eclipse-gitlab-slides/commits/master)
 
 # Eclipse & GitLab
 
